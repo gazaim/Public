@@ -79,6 +79,7 @@ function New-Shortcut {
          throw "Both SourceIconPath and DestinationIconPath must be provided together."
       }
    }
+   
    process {
       # Copy Source Icon to Destination Icon Path
       if ($DestinationIconPath -and $SourceIconPath) {
